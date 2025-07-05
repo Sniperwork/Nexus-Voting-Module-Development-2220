@@ -1,0 +1,48 @@
+{
+  "name": "voting-module",
+  "displayName": "Voting Module (Dev)",
+  "version": "1.0.0-dev",
+  "description": "A modern dark minimalist voting module for Nexus wallet (Development)",
+  "author": "Nexus Community",
+  "main": "dist/bundle.js",
+  "icon": "vote",
+  "color": "#ff6b35",
+  "category": "governance",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nexusoft/nexus-voting-module"
+  },
+  "license": "MIT",
+  "keywords": [
+    "nexus",
+    "voting",
+    "governance",
+    "blockchain",
+    "development"
+  ],
+  "nexus": {
+    "minCoreVersion": "5.1.0",
+    "maxCoreVersion": "*",
+    "permissions": [
+      "ACCOUNTS:READ",
+      "ACCOUNTS:WRITE",
+      "TRANSACTIONS:READ", 
+      "TRANSACTIONS:WRITE",
+      "ASSETS:READ",
+      "ASSETS:WRITE"
+    ],
+    "dependencies": [],
+    "devMode": true
+  },
+  "scripts": {
+    "build": "webpack --mode=production",
+    "dev": "webpack --mode=development --watch"
+  },
+  "files": [
+    "dist/",
+    "assets/",
+    "README.md",
+    "LICENSE"
+  ]
+}

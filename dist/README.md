@@ -46,6 +46,7 @@ A modern, dark minimalist voting module for the Nexus wallet, enabling on-chain 
 ## API Integration
 
 The module integrates with the Nexus blockchain using the following APIs:
+
 - `assets/list/proposals` - Fetch active proposals
 - `assets/create/vote` - Cast votes on proposals
 - `assets/create/proposal` - Create new proposals
@@ -54,6 +55,7 @@ The module integrates with the Nexus blockchain using the following APIs:
 ## Development
 
 To build the module:
+
 ```bash
 npm install
 npm run build
